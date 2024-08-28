@@ -23,6 +23,10 @@
     list-style: none;
 }
 
+.highligts{
+    color: gold;
+}
+
 
 .header{
     display: flex;
