@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Roboto;
 }
 
 .header-text{
@@ -73,7 +74,7 @@
     flex-direction: column;
     padding: 40px 0 40px 0;
     align-items: center;
-
+    margin-bottom: 40px;
 }
 
 .secondHeader{
@@ -97,4 +98,75 @@
 .card-container img{
     width: 200px;
     height: 200px;
+}
+/* ========================= */
+
+.thirdSection{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 60px;
+}
+
+.quotes{
+    width: 900px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.author{
+    font-size: 20px;
+    font-style: normal;
+    padding: 20px;
+}
+
+/* ------------------------- */
+
+.fourthSection{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.fourthHeader{
+    display: flex;
+    width: 700px;
+    background-color: #3882f6 ;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.info{
+    flex: 3 1 auto;
+}
+
+.btn{
+    flex: 1 1 auto;
+}
+
+.btn button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:transparent;
+    color: white;
+    border: solid 1px white;
+}
+/* ------------------------------- */
+
+.footer{
+    display: flex;
+    padding: 20px;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
 }
